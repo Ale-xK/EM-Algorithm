@@ -69,7 +69,7 @@ def EM(data_points, sources, w, mu, cov, iterations, tol):
     '''(ndarray, list, list, ndarray, ndarray, int, float) --> None
     
     Takes a (data set of points unassigned to a source), a (list of sources), 
-    and parameters to optimize (w,mu, cov), and assigns to each data point a 
+    and parameters to optimize (w, mu, cov), and assigns to each data point a 
     probability of belonging to each source by estimating the parameters: 
     weights, means, and covariances of the respective distributions. 
     The function does this by iterating through the expectation-maximization 
