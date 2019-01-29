@@ -87,7 +87,7 @@ def EM(data_points, sources, w, mu, cov, iterations, tol):
     phi = np.zeros((k, num))
     gamma = np.zeros((k, num))
     n = np.zeros((1, k))
-    n = n[0] # necessary since the previous like creates a list within a list: '[[]]'
+    n = n[0] # necessary since the list n creates a list within a list: '[[]]'
     
     # The Main Loop 
     for iteration in range(iterations):
