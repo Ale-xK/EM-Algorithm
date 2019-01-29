@@ -37,7 +37,7 @@ print('\n','Incomplete database: Complete Database minus source info \n', X_trai
     
 tup = sep_data(X_train) # data separated out to be a tuple (X, Y) for plotting
 
-#----------------------------Raw Data Plot-----------------------------
+#----------------------------Data Scatter Plot-----------------------------
 
 fig1 = plt.figure(1)
 plt.hist2d(tup[0], tup[1], bins=100, norm=LogNorm(), cmap='inferno')
